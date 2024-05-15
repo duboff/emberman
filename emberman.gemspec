@@ -25,6 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency     'ember-source',                   '2.18.1'
   spec.add_runtime_dependency     'ember-data-source',              '3.0.2'
 
-  spec.add_development_dependency 'bundler', '~> 1.16.0'
+  spec.add_development_dependency 'bundler', '>= 2.0.0'
   spec.add_development_dependency 'rake', '~> 10.4.0'
 end
