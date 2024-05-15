@@ -18,9 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency     'middleman-core',                 '~> 3.3.7'
-  spec.add_runtime_dependency     'middleman-ember',                '~> 0.2.4'
-  spec.add_runtime_dependency     'sprockets-handlebars_template',  '~> 1.0.0'
+  spec.add_runtime_dependency     'middleman-core',                 '>= 3.3.7'
+  spec.add_runtime_dependency     'middleman-ember',                '>= 0.2.4'
+  spec.add_runtime_dependency     'sprockets-handlebars_template',  '>= 1.0.0'
   spec.add_runtime_dependency     'handlebars-source',              '4.1.1'
   spec.add_runtime_dependency     'ember-source',                   '2.18.1'
   spec.add_runtime_dependency     'ember-data-source',              '3.0.2'
